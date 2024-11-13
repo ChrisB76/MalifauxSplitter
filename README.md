@@ -15,5 +15,6 @@ To run the stitching endpoint after the processing has finished:
 3. The script will match fronts and back, convert them to PNG and store in the /build/resources/main/converted folder
 4. The script will then stitch the converted images into a joined image and store in the /build/resources/main/stitched folder
 5. The stitched images should be of the correct size and format (1650 x 1450px)
+6. I would recommend at least 160gsm paper to print on. using PVA glue gives a stronger finish. a round corner tool can give a better look and feel. 
 
-Please note any artwork, names or trademarks belong to Wyrd Miniatures
+ Please note any artwork, names or trademarks belong to Wyrd Miniatures
