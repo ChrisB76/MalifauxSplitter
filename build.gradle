@@ -17,24 +17,13 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-//	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-//	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-//	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-//	testImplementation 'io.projectreactor:reactor-test'
-
 	implementation ('org.apache.pdfbox:pdfbox:2.0.29') {
 		exclude group: 'commons-logging', module: 'commons-logging'
 	}
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 
-
-//	implementation group: 'org.springframework', name: 'spring-core', version: '5.3.29'
-//
-//	// https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
-//	implementation group: 'org.springframework.security', name: 'spring-security-core', version: '5.7.8'
-//	// https://mvnrepository.com/artifact/org.springframework.security/spring-security-config
-//	implementation group: 'org.springframework.security', name: 'spring-security-config', version: '5.7.8'
-
-
+	compileOnly 'org.projectlombok:lombok:1.18.34'
+	annotationProcessor 'org.projectlombok:lombok:1.18.34'
 
 
 }
